@@ -32,7 +32,7 @@ const SignUpPage = () => {
                       <h4 className="fg-dark title text-center bold">
                         Welcome{" "}
                       </h4>
-                      <h5 className="fg-dark text-center">Sign in</h5>
+                      <h5 className="fg-dark text-center">Sign Up</h5>
                       <LoginFormPage />
                     </div>
                     <div className="cell small-10 small-offset-1">
