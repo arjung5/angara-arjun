@@ -16,12 +16,11 @@ const HeaderWrapper = () => {
     console.log("storedUsername", storedUsername);
     console.log("storedPassword", storedPassword);
     const sessionStoragevalue = localStorage.getItem(SESSION_TOKEN);
-    if (sessionStoragevalue) {
+    if (sessionStoragevalue && storedUsername ) {
       if (sessionStoragevalue == storedUsername) {
         setSingedIn(true);
       } else {
         setSingedIn(false);
-        router.push("/signin");
       }
     } else {
       setSingedIn(false);

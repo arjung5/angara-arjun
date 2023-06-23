@@ -76,6 +76,7 @@ const LoginFormPage = () => {
               className="m-t-10 m-r-5"
               type="text"
               name="PhoneCountryCode"
+              required
               placeholder=""
               onChange={(e) => {
                 handleChange(e);
@@ -92,6 +93,7 @@ const LoginFormPage = () => {
               type="text"
               name="PhoneNumber"
               placeholder="Phone Number"
+              required
               onChange={(e) => {
                 handleChange(e);
               }}
@@ -107,6 +109,7 @@ const LoginFormPage = () => {
               type="text"
               name="FirstName"
               placeholder="First Name"
+              required
               onChange={(e) => {
                 handleChange(e);
               }}
@@ -120,6 +123,7 @@ const LoginFormPage = () => {
               type="text"
               name="LastName"
               placeholder="Last Name"
+              required
               onChange={(e) => {
                 handleChange(e);
               }}
@@ -132,6 +136,7 @@ const LoginFormPage = () => {
               type="text"
               name="EmailAddress"
               placeholder="Email Address"
+              required
               onChange={(e) => {
                 handleChange(e);
               }}
@@ -144,6 +149,7 @@ const LoginFormPage = () => {
               type="password"
               name="Password"
               placeholder="Enter Password"
+              required
               onChange={(e) => {
                 handleChange(e);
               }}
