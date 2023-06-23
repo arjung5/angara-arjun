@@ -1,0 +1,10 @@
+import HeaderWrapper from "./HeaderWrapper/HeaderWrapper"; 
+import CardsWrapper from "./CardsWrapper/CardsWrapper";
+import ProductDescWrapper from './ProductDescWrapper/ProductDescWrapper';
+import ProductSpecificationWrapper from './ProductSpecificationWrapper/ProductSpecificationWrapper';
+import TestimonialWrapper from './TestimonialWrapper/TestimonialWrapper';
+import Footer from "./Footer/Footer";
+import ContactUs from "./ContactUs/ContactUs";
+import ProductsList from './ProductsList/ProductsList';
+import SignUpPage from "./sign-up/SignUpPage";
+export {HeaderWrapper,CardsWrapper,ProductDescWrapper,ProductSpecificationWrapper,TestimonialWrapper,Footer,ContactUs,ProductsList,SignUpPage};
