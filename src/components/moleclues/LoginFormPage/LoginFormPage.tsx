@@ -144,7 +144,7 @@ const LoginFormPage = () => {
             />
           </label>
           <label>
-            {emailAddressLbl}
+            Password
             <input
               type="password"
               name="Password"
