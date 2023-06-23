@@ -1,5 +1,3 @@
-import MediaWithContent from "../MediaWithContent/MediaWithContent";
-
 const TextWithBanner=()=>{
   
     return(

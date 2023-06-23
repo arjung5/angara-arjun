@@ -59,7 +59,7 @@ const HeaderWrapper = () => {
       <div className="cell">
         <div className="grid-x relative standard-header align-middle">
           <div className="cell shrink">
-            <a href="/">
+            <Link href="/">
               <MediaWithContent
                 media={{
                   type: "image",
@@ -69,7 +69,7 @@ const HeaderWrapper = () => {
                   imageWidth: 200,
                 }}
               />
-            </a>
+            </Link>
           </div>
 
           <div className="cell auto">

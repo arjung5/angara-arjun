@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { featuresConfig } from "../../../../_mocks_/featuresConfig";
 import MediaWithContent from "../MediaWithContent/MediaWithContent";
 
@@ -41,9 +42,9 @@ const Specification = () => {
                     <h2 className="large-m-b-50 bold">{featureTitle}</h2>
                   </div>
                   <div className="cell small-12 medium-4 large-6 text-center medium-text-right m-t-30">
-                    <a className="bold button hvr-bubble-bottom" href="/">
+                    <Link className="bold button hvr-bubble-bottom" href="/">
                       {featureButton}
-                    </a>
+                    </Link>
                   </div>
                   <div className="cell small-12 medium-12 m-t-30">
                     <div className="grid-x grid-margin-x grid-margin-y align-middle">

@@ -1,5 +1,6 @@
 import { Heading } from "@/components/atoms";
 import { headerConfig } from "../../../../_mocks_/header";
+import Link from "next/link";
 
 const Banner = () => {
   const {bannerTButton,bannerSubTitle,bannerTitle,bannerImageUrl}=headerConfig;
@@ -28,9 +29,9 @@ const Banner = () => {
                 <Heading headingLevel="h1" addClasses="m-t-50 fg-light banner-title uppercase bold">{bannerSubTitle}</Heading>
                 <Heading headingLevel="h2" addClasses="m-b-15 medium-m-b-30 fg-light banner-subtitle">{bannerTitle}</Heading>
                 <div className="button-group large">
-                  <a className="button hollow light" href="/">
+                  <Link className="button hollow light" href="/">
                   {bannerTButton}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
