@@ -34,7 +34,7 @@ const HeaderWrapper = () => {
 
   const renderNavItems = navItems?.map((item, index) => {
     const { navTitle, href } = item;
-    if (navTitle === "Sign In" && !singedUp) {
+    if (navTitle === "Sign In" && (!singedUp || singedIn)) {
       return;
     } else if (navTitle === "Sign Up" && singedUp) {
       return;
