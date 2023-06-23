@@ -76,7 +76,7 @@ const SignInPage = () => {
                       <h4 className="fg-dark title text-center bold">
                         Welcome{" "}
                       </h4>
-                      <h5 className="fg-dark text-center">Sign Up</h5>
+                      <h5 className="fg-dark text-center">Sign In</h5>
                       <form onSubmit={handleSubmit}>
                         <div className="grid-x grid-margin-x">
                           <div className="cell small-12 ">
@@ -94,7 +94,7 @@ const SignInPage = () => {
                               />
                             </label>
                             <label>
-                              {emailAddressLbl}
+                              Password
                               <input
                                 type="password"
                                 name="Password"
