@@ -49,7 +49,6 @@ const ProductSpecificationWrapper = () => {
                     <MediaWithContent media={{
                       type: "image",
                       imageSrc: '/features-3.jpg',
-                      addClasses: "grid-x background-fullscreen-cover",
                     }}/>
                   </div>
                 </div>

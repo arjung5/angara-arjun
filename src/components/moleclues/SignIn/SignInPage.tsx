@@ -85,7 +85,7 @@ const SignInPage = () => {
                               <input
                                 type="text"
                                 name="UserName"
-                                placeholder="UserName"
+                                placeholder="UserName/Email"
                                 onChange={(e) => {
                                   handleChange(e);
                                 }}
