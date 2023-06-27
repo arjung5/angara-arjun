@@ -1,8 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
+
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import { Banner, TextWithBanner, Specification, Whatsapp } from '@/components/moleclues'
+import { Banner, TextWithBanner, Specification, Whatsapp, ProductDetails } from '@/components/moleclues'
 import { HeaderWrapper, CardsWrapper, ProductDescWrapper, ContactUs, ProductsList, ProductSpecificationWrapper, TestimonialWrapper, Footer } from '@/components/organisms'
 
 const inter = Inter({ subsets: ['latin'] })

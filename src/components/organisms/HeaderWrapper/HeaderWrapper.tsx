@@ -13,8 +13,6 @@ const HeaderWrapper = () => {
   const [singedIn, setSingedIn] = useState(false);
   useEffect(() => {
     const [storedUsername, storedPassword] = getStoredCookie();
-    console.log("storedUsername", storedUsername);
-    console.log("storedPassword", storedPassword);
     const sessionStoragevalue = localStorage.getItem(SESSION_TOKEN);
     if (sessionStoragevalue && storedUsername ) {
       if (sessionStoragevalue == storedUsername) {

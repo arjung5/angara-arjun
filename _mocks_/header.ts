@@ -11,10 +11,6 @@ export const headerConfig={
             href:"/"
         },
         {
-            navTitle:"Products",
-            href:"/"
-        },
-        {
             navTitle:"Blogs",
             href:"/"
         },
@@ -28,7 +24,7 @@ export const headerConfig={
         },
         {
             navTitle:"Carts",
-            href:"/"
+            href:"/cart"
         },
         {
             navTitle:"Sign Out",

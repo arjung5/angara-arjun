@@ -12,6 +12,7 @@ export const prductConfig={
             sellPrice:"140",
             currency:"INR",
             details:"View Details",
+            navTitle:"Products",
         },
         {
             id:2,

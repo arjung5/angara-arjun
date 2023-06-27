@@ -1,24 +1,28 @@
-import Image from 'next/image'
- 
-type ImageProps={
-    src:string,
-    width:number,
-    height:number,
-    alt:string
-}
+import Image from "next/image";
+
+type ImageProps = {
+  imageSrc: any;
+  altText?: string;
+  addClasses?: string;
+  imageHeight?: number;
+  imageWidth?: number;
+};
+
 export default function ImageComp({
-    src,
-    width,
-    height,
-    alt
-}:ImageProps) {
+  imageSrc,
+  imageWidth,
+  imageHeight,
+  altText,
+  addClasses,
+}: ImageProps) {
   return (
     <Image
-      src={src}
-      width={width}
-      height={height}
-    alt={alt}
-    
+      src={imageSrc as string}
+      layout="resposive"
+      height={imageHeight || 800}
+      width={imageWidth || 1000}
+      className={addClasses}
+      alt={altText as string}
     />
-  )
+  );
 }
